@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.image{
+    height: 630px;
+    width: 424px;
+    background-image: url(phone.png);
+    background-size: cover;
+}
+.image-top{
+    height: 343px;
+    width: 720px;
+    background-repeat: no-repeat;
+    background-image: url(PlayStation.png);
+}
+.image-btm1{
+    background-image: url(headphone.png);
+    width: 104px;
+    height: 272px;
+}
+.image-btm2{
+    background-image: url(visionpro.png);
+    width: 200px;
+    height: 190px;
+    margin-top: 60px;
+}
+.image-right{
+    background-image: url(macbook.png );
+    width: 292px;
+    height: 502px;
+    margin-top: 50px;
+}
+.seventh-section{
+    height: 448px;
+    width: 100%;
+    margin-top: 40px;
+    background-image: url(Banner\ 2\ \(1\).png);
+    background-size: cover;
+}
+.buttonPro:hover{
+    background-color: white ;
+    color: black;
+    transition: 1s;
+}
+svg:hover{
+    /* background-color: red; */
+    border-radius: 25px;
+    color: red;
+}
